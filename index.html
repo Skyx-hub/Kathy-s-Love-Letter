@@ -1,1 +1,342 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Kathy, With Love ♡</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Parisienne&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: 65px 18px;
+    background-color: #f4ded6;
+
+    /* YOUR CHOSEN VINTAGE PINK BOTANICAL BACKGROUND */
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Quicksand', sans-serif;
+    color: #69504f;
+}
+
+.decor {
+    position: fixed;
+    pointer-events: none;
+    opacity: .75;
+    font-size: 30px;
+}
+
+.d1 { top: 7%; left: 5%; }
+.d2 { top: 18%; right: 6%; }
+.d3 { bottom: 12%; left: 7%; }
+.d4 { bottom: 6%; right: 8%; }
+
+.container {
+    width: 100%;
+    max-width: 720px;
+    position: relative;
+    z-index: 1;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.heading h1 {
+    font-family: 'Parisienne', cursive;
+    font-size: clamp(45px, 8vw, 70px);
+    color: #985e68;
+    margin: 0;
+    font-weight: 400;
+}
+
+.heading p {
+    letter-spacing: 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #9b7772;
+}
+
+.paper {
+    background: #fffaf2;
+    padding: clamp(25px, 6vw, 60px);
+    border: 1px solid #e4c9bb;
+    outline: 5px solid rgba(255,250,242,.45);
+    box-shadow: 0 20px 60px rgba(92,57,49,.20);
+    position: relative;
+}
+
+.paper::before {
+    content: "♡";
+    position: absolute;
+    top: 17px;
+    right: 22px;
+    font-size: 28px;
+    color: #c58a8e;
+}
+
+.top {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 9px;
+    color: #b77b7e;
+    margin-bottom: 25px;
+}
+
+.address {
+    font-family: 'Playfair Display', serif;
+    color: #9a6268;
+    font-size: 19px;
+    margin-bottom: 28px;
+}
+
+.letter {
+    height: 560px;
+    overflow-y: auto;
+    padding-right: 12px;
+    line-height: 2.05;
+    font-size: 16px;
+    scrollbar-width: thin;
+    scrollbar-color: #c99a9a #f7eee6;
+}
+
+.letter p {
+    margin: 0 0 25px;
+}
+
+.salutation {
+    font-family: 'Parisienne', cursive;
+    font-size: 37px;
+    color: #a45f6c;
+    line-height: 1.4;
+}
+
+.signature {
+    text-align: right;
+    font-family: 'Parisienne', cursive;
+    font-size: 38px;
+    color: #a45f6c;
+    margin-top: 35px !important;
+    line-height: 1.4;
+}
+
+.bottom {
+    text-align: center;
+    margin-top: 30px;
+    color: #a77978;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 25px;
+    color: #96736d;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.letter::-webkit-scrollbar { width: 5px; }
+.letter::-webkit-scrollbar-thumb {
+    background: #c99a9a;
+    border-radius: 10px;
+}
+
+@media(max-width: 500px) {
+    body {
+        padding: 40px 13px;
+        background-attachment: scroll;
+    }
+
+    .letter { height: 520px; font-size: 15px; }
+    .paper { padding: 27px 21px; }
+    .decor { font-size: 23px; }
+}
+</style>
+</head>
+
+<body>
+
+<div class="decor d1">🌷</div>
+<div class="decor d2">♡</div>
+<div class="decor d3">🧸</div>
+<div class="decor d4">✿</div>
+
+<div class="container">
+
+    <div class="heading">
+        <h1>For My Kathy</h1>
+        <p>A little piece of my heart, made just for you</p>
+    </div>
+
+    <div class="paper">
+
+        <div class="top">♡ ✿ ♡</div>
+
+        <div class="address">
+            To: Kathy / My little zombie ♡
+        </div>
+
+        <div class="letter">
+
+            <p class="salutation">
+                My sweetest Kathy,
+            </p>
+
+            <p>
+                First of all, I NEED YOU TO KNOW THAT I LOVE YOU.
+                Like, I love you an absolutely ridiculous amount.
+                If I could put all the love I have for you into
+                words, I genuinely think I'd end up writing a whole
+                book. You mean so much to me, and I hope you never
+                forget just how special you are.
+            </p>
+
+            <p>
+                One of my favourite things about life right now is
+                getting to have you in it. I love waking up knowing
+                that you're someone I get to talk to, someone I get
+                to laugh with, someone I get to annoy, and someone
+                who makes my days so much more exciting.
+            </p>
+
+            <p>
+                I love the little things about you just as much as
+                the big things. Your personality, your humour,
+                your random conversations, your reactions, your
+                little habits, and all those things that make you
+                the Kathy I fell in love with.
+            </p>
+
+            <p>
+                I want to make you feel like the most loved girl
+                in the entire universe. I want to remind you that
+                you're beautiful, appreciated, important, and
+                deserving of every good thing life has to offer.
+                You deserve princess treatment, and I hope I get
+                to give you plenty of it.
+            </p>
+
+            <p>
+                I want to experience so many things with you.
+                Cute dates, random adventures, late-night talks,
+                little surprises, matching things, taking pictures,
+                laughing at stupid jokes, and making memories that
+                we'll remember forever. I want even the simplest
+                days with you to become some of my favourite memories.
+            </p>
+
+            <p>
+                I genuinely want to be your biggest supporter.
+                When you achieve something, I want to celebrate
+                with you. When you have a dream, I want to encourage
+                you to chase it. I want to see you become everything
+                you've ever wanted to be, and I hope you always
+                know that I'll be cheering for you.
+            </p>
+
+            <p>
+                And Kathy, I have SO MANY dreams for our future.
+                I think about us growing older together, travelling
+                to beautiful places, discovering new things,
+                decorating our own little home, and having a
+                million stories to tell each other.
+            </p>
+
+            <p>
+                I hope one day I get to stand beside you and call
+                you my wife. I hope we get to build a beautiful
+                home, have our own family, and raise children who
+                grow up surrounded by all the love in the world.
+                Just imagining that future with you makes me so happy.
+            </p>
+
+            <p>
+                I want us to keep learning about each other.
+                I want us to communicate, laugh, understand,
+                appreciate and encourage one another. I want our
+                love to keep getting sweeter as we grow together.
+            </p>
+
+            <p>
+                I hope we never stop doing the little things.
+                The random compliments, the unexpected messages,
+                the silly nicknames, the good morning texts,
+                the goodnight wishes, and all the tiny ways we
+                remind each other that we're loved.
+            </p>
+
+            <p>
+                If I could give you anything, I'd give you the
+                ability to see how wonderful you are through my
+                eyes. I'd let you see how much happiness you bring
+                me and how easily you can make me smile just by
+                being yourself.
+            </p>
+
+            <p>
+                I hope your life is filled with happiness,
+                beautiful opportunities, good health, success,
+                adventures, and everything your heart wishes for.
+                I want to see you win at life, Kathy. I really do.
+            </p>
+
+            <p>
+                And since this is my little 11:11 letter, I wish
+                for a future where we get to look back at all these
+                little moments and feel grateful that we got to
+                experience them together.
+            </p>
+
+            <p>
+                You're my favourite girl, my little zombie,
+                my princess, my happiness, and someone I love
+                more than I could ever properly explain.
+                I hope this little website makes you smile
+                because it was made with so much love.
+            </p>
+
+            <p>
+                So here's a reminder, in case I haven't said it
+                enough already: I LOVE YOUUUUU KATHYYYY.
+                SO MUCH. SO SO SO MUCH. MORE THAN ALL THE STARS,
+                MORE THAN ALL THE FLOWERS, MORE THAN ALL THE
+                LITTLE HEARTS I COULD EVER PUT ON THIS PAGE.
+            </p>
+
+            <p class="signature">
+                Forever sending you love,<br>
+                From Rae ♡
+            </p>
+
+        </div>
+
+        <div class="bottom">
+            made with love, especially for you.
+        </div>
+
+    </div>
+
+    <div class="footer">
+        A LITTLE WORLD THAT BELONGS TO KATHY ♡
+    </div>
+
+</div>
+
+</body>
+</html>
+
